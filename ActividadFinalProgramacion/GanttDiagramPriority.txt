@@ -1,0 +1,50 @@
+
+		P R I O R I T Y
+
+GANTT DIAGRAM:
+------------------------------------------------------------------------------------
+| Proceso1 || Proceso1 || Proceso2 || Proceso3 || Proceso3 || Proceso4 || Proceso2 |
+------------------------------------------------------------------------------------
+0           3         5.3         7.4        11.8        14.2        20.3          23
+
+READY QUEUES:
+0:
+
+->
+
+3:
+  ----
+->|P2|->
+  ----
+
+5.3:
+  
+->
+
+
+7.4:
+  ----
+->|P2|->
+  ----
+
+11.8:
+  --------
+->|P2||P4|->
+  --------
+
+14.2:
+  ----
+->|P2|->
+  ----
+
+20.3:
+  
+->
+
+
+WAITING TIMES:
+Waiting time of Proceso1: 0
+Waiting time of Proceso2: 15.2
+Waiting time of Proceso3: 4.76837e-07
+Waiting time of Proceso4: 2.4
+
