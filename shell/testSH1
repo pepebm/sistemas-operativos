@@ -1,0 +1,12 @@
+#!/bin/bash
+
+for i in 1 2 3 4 5 6
+do
+  touch prueba$i
+  echo hola$i > prueba$i
+  mv prueba$i prueba$i.txt
+done
+#este es un comentario
+for i in $(seq 1 254); do
+  ping 10.49.25.$i
+done

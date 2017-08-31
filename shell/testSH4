@@ -1,0 +1,5 @@
+#!/bin/bash
+wget -p http://www.csf.itesm.mx/index.html
+ifconfig > listar
+exec ls >> listar
+ls >> listar

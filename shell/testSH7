@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cp /etc/group prueba
+if [ `grep apache prueba` ]
+then
+  echo apache
+elif [ `grep sshd prueba` ]
+then
+  echo sshd
+else
+  echo no hay
+fi

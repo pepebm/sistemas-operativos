@@ -1,0 +1,12 @@
+#!/bin/bash
+cat tt.txt | while read LINE
+do
+  echo $LINE
+done
+while read LINE
+do
+  echo "_hola_ $LINE. ------adios"
+done < tt.txt
+ls -l | while read LINE do
+  echo $LINE
+done

@@ -1,0 +1,20 @@
+#!/bin/bash
+echo Hola Shell
+let "a = 8"
+let "a++"
+if [ 3 -lt $a ]
+then
+  echo $a mayor que 3
+else
+  echo $a menor que 3
+fi
+let "a*=3"
+echo $a
+echo $0
+if [ $1 -ge $a ]
+then
+  echo $1 mayor o igual que $a
+else
+  echo $1 menor que $a
+fi
+echo $2

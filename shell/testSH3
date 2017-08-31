@@ -1,0 +1,9 @@
+#!/bin/bash
+let "n=5"
+while [ $n -ne 0 ]
+do
+  let "n--"
+  echo $n
+done
+let "n+=10"
+echo $n
